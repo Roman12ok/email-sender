@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 require('dotenv').config()
-const port = 3100;
+const port = 5000;
 const cors = require('cors');
 const nodemailer = require('nodemailer');
 
@@ -44,4 +44,4 @@ transporter.sendMail(mailOptions, (error, info) =>{
 });
 
 
-app.listen(3100, () => console.log(`listening on port ${port}!`));
+app.listen(process.env.PORT || port, () => console.log(`listening on port ${port}!`));
