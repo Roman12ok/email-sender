@@ -15,7 +15,7 @@ app.post('/api', (req, res) => {
 });
 
 app.get('/r', (req, res) => {
-  res.send('dfgdgegre')
+  res.send('dfgdge34gre')
 })
 
 // const transporter = nodemailer.createTransport({
