@@ -27,12 +27,7 @@ const mailOptions = {
   to: 'romanenglish889@gmail.com',
   subject: 'Invoices due',
   text: 'Dsvewney.',
-  html: `
-  <h1>${Email}</h1>
-  <h1>${Name}</h1>
-  <h1>${Numd}</h1>
-  <h1>${Message}</h1>
-  `
+  html: ``,
 };
 
 transporter.sendMail(mailOptions, (error, info) =>{
