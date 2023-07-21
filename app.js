@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 require('dotenv').config();
-const port = 3013;
+const port = 5000;
 const cors = require('cors');
 const nodemailer = require('nodemailer');
 
