@@ -39,4 +39,4 @@ app.post('/api', (req, res) => {
   });
 });
 
-app.listen(process.env.PORT || port, () => console.log(`listening on port ${port} or ${process.env.PORT}!`));
+app.listen(process.env.PORT || port);
